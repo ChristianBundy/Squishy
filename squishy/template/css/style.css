@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+margin-top: 25px;
+font-family: Arial, ans-serif;
+color: #151515;
+}
+
+#container {
+width: 960px;
+margin-left:auto;
+margin-right: auto;
+}
+
+a {
+color: #74aee8;
+text-decoration: none;
+border-bottom: 1px dotted #ddd;
+}
+
+a:hover {
+color: #0477e9;
+border-bottom: 1px dotted #74aee8;
+}
+
+p {
+line-height: 1.6em;
+margin-top: 12px;
+margin-bottom: 12px;
+color: #303030;
+font-family: Georgia, serif;
+}
+
+
+.top {
+height: 287px;
+display: block;
+}
+
+h2 {
+font-size: 16pt;
+margin-bottom: 12px;
+color: #303030;
+/*text-shadow: 1px 1px 2px #ddd;*/
+}
+
+#head h1 {
+display: inline;
+font-size: 2em;
+color: #303030;
+}
+
+#main {
+/*background-color: red;*/
+margin-top: 25px;
+float:right;
+width: 960px;
+border-top: 1px solid #ddd;
+}
+
+#sidebar {
+/*background-color: green;*/
+float: left;
+width: 180px;
+}
+
+#content {
+margin-top: 37px;
+margin-bottom: 50px;
+float: left;
+width: 562px;
+}
+
+#sidebar {
+margin-top: 37px;
+margin-bottom: 50px;
+float: right;
+width: 348px;
+
+}
+
+#sidebar ul li {
+list-style: none;
+margin-left: 10px;
+}
+
+#bigfoot {
+clear: both;
+width: 100%;
+border-top: 1px solid #333;
+background-color: #111;
+padding-top: 25px;
+padding-bottom: 25px;
+display: block;
+}
+
+#footer {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#footer p {
+color: #ddd;
+font-family: arial;
+}
+
+#nav {
+/*background-color: blue;*/
+margin-top: 20px;
+float: right;
+}
+
+#box {
+background-image: url('/img/box-bg.png');
+width: 960px;
+height: 300px;
+text-align: center;
+}
+
+#box img {
+margin-left: auto;
+margin-right: auto;
+margin-top: 75px;
+}
+
+#nav li {
+display: inline;
+margin-left: 2.5em;
+}
+
+#nav li a:hover, #nav li a#current:hover{
+color: #0477e9;
+}
+
+#nav li a {
+color: #cfcfcf;
+color: #606060;
+text-decoration: none;
+font-weight: bold;
+}
+
+#nav li a#current {
+color: #74aee8;
+}
+
+#title {
+float: left;
+margin-top: 5px;
+}

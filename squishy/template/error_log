@@ -1,0 +1,2 @@
+[13-May-2012 01:03:26] PHP Fatal error:  Using $this when not in object context in /home/cbundy/public_html/bearbones/template/mainpage.php on line 36
+[13-May-2012 01:03:41] PHP Fatal error:  Using $this when not in object context in /home/cbundy/public_html/bearbones/template/template.php on line 3

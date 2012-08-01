@@ -1,0 +1,1 @@
+[31-Jul-2012 10:54:23] PHP Fatal error:  Using $this when not in object context in /home/cbundy/cbcode.net/public_html/squishy/blobs/text/item.php on line 2
